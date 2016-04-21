@@ -1,0 +1,20 @@
+{
+  "name": "kanban_app",
+  "version": "0.0.0",
+  "description": "Webpack demo app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [
+    "webpack",
+    "demo"
+  ],
+  "author": "markfallondub@gmail.com",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "react-dom": "~15.0.1",
+    "react": "~15.0.1"
+  }
+}
