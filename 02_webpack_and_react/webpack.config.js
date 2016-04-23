@@ -12,6 +12,7 @@ const PATHS = {
 };
 // he npm_lifecycle_event environment variable is set to whichever stage of the cycle is being executed
 const TARGET = process.env.npm_lifecycle_event;
+process.env.BABEL_ENV = TARGET;
 
 var common = {
   // Entry accpts a path or object of entries
